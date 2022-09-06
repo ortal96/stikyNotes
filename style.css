@@ -1,0 +1,73 @@
+body{
+    background-image: url(img/tile.jpg);
+    padding: 20px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.notBook{
+    background-image: url(img/formbg.jpg);
+    height: 200px;
+    width: 700px;
+}
+
+.titleImg{
+    height: 100px;
+    width: 250px;
+    
+}
+
+#tasksDiv{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.noteStyle{
+    background-Image : url(img/notebg.png);
+    height : 250px;
+    width : 200px;
+    display : flex;
+    flex-Direction : column;
+    padding: 20px;
+    position: relative;
+    
+    
+}
+
+
+.closeButton{
+    background-color: unset;
+    position: relative;
+    top: 30px;
+    right: 60px;
+    height: 30px;
+  
+} 
+
+.p2{    
+
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+     
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divDit{
+    height: 160px;
+    overflow : auto;
+}
+
+label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
